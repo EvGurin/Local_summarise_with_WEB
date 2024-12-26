@@ -1,0 +1,74 @@
+/* Используем современный шрифт и белый фон */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    background: #fff;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+h1, h2 {
+    color: #333;
+    font-weight: 700;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 5px rgba(0,0,0,0.05);
+}
+
+.task .card-title {
+    font-size: 1.25rem;
+    color: #0052cc;
+    font-weight: 500;
+}
+
+.task .card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+.btn {
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #0052cc;
+    border-color: #004bb5;
+}
+.btn-primary:hover {
+    background-color: #004bb5;
+    border-color: #0041a3;
+}
+
+.btn-secondary {
+    background-color: #7fa6d9;
+    border-color: #6b95d3;
+    color: #ffffff;
+}
+.btn-secondary:hover {
+    background-color: #6b95d3;
+    border-color: #5d87c7;
+}
+
+.btn-info {
+    background-color: #33adff;
+    border-color: #289be6;
+    color: #ffffff;
+}
+.btn-info:hover {
+    background-color: #289be6;
+    border-color: #1f8acc;
+}
+
+.btn-success {
+    background-color: #339966;
+    border-color: #2e8558;
+}
+.btn-success:hover {
+    background-color: #2e8558;
+    border-color: #276f4a;
+}
